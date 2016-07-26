@@ -9,6 +9,11 @@ function installSeanStack(){
    npm install express path body-parser pg angular angular-route bootstrap grunt grunt-contrib-copy grunt-contrib-uglify grunt-contrib-jshint grunt-contrib-watch --save;
 }
 
+function installMeanStack(){
+   npm init -yes &&
+   npm install express path body-parser mongodb angular angular-route bootstrap grunt grunt-contrib-copy grunt-contrib-uglify grunt-contrib-jshint grunt-contrib-watch --save;
+}
+
 #
 # Creates standard node architecture
 #
