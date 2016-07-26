@@ -5,13 +5,17 @@
 #
 
 function installSeanStack(){
+  echo "Server installation for S.E.A.N. stack beginning";
+  say "Server installation for sean stack beginning";
    npm init -yes &&
-   npm install express path body-parser pg angular angular-route bootstrap grunt grunt-contrib-copy grunt-contrib-uglify grunt-contrib-jshint grunt-contrib-watch --save;
+   npm install express path body-parser pg angular angular-route angular-material angular-animate angular-aria angular-messages bootstrap moment grunt grunt-contrib-copy grunt-contrib-uglify grunt-contrib-jshint grunt-contrib-watch --save;
 }
 
 function installMeanStack(){
+  echo "Server installation for M.E.A.N. stack beginning";
+  say "Server installation for mean stack beginning";
    npm init -yes &&
-   npm install express path body-parser mongodb angular angular-route bootstrap grunt grunt-contrib-copy grunt-contrib-uglify grunt-contrib-jshint grunt-contrib-watch --save;
+   npm install express path body-parser mongoose mongoose-schema-formatdate mongoose angular angular-route angular-material angular-material angular-animate angular-aria angular-messages bootstrap moment grunt grunt-contrib-copy grunt-contrib-uglify grunt-contrib-jshint grunt-contrib-watch --save;
 }
 
 #
