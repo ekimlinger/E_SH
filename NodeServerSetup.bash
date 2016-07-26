@@ -22,7 +22,8 @@ function installMeanStack(){
 # Creates standard node architecture
 #
 
-function createNodeFolders(){
+function createNodeFolders($stack){
+  echo "Creating Node folders"
    echo "node_modules \n.DS_STORE \nnpm-debug.log \nplansToTakeOverTheWorld.md" > .gitignore;
    cp ~/Documents/__groundZERO/Gruntfile.js .;
    mkdir server;
