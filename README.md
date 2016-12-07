@@ -7,4 +7,4 @@ This repository is to store all of my current shell scripts to make programming 
 Download or clone repository. Add all functions into your .bash_profile (under your home directory). Restart your terminal and simply run "installSeanStack" or "installMeanStack", and "installNodeFolders" where you would like the server installed.
 
 ##Contribute
-I'm definitely not the first one to do this, so if you have any suggestions or bug fixes be sure submit a pull request or let me know!
+If you have any suggestions or bug fixes be sure submit a pull request or let me know!
