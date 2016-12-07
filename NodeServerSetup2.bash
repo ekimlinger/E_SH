@@ -1,4 +1,7 @@
-nstall all node components and modules
+#!/bin/bash
+
+#
+# Install all node components and modules
 #
 
 function installSeanStack(){
@@ -11,7 +14,7 @@ function installSeanStack(){
     __createNodeFolders sql;
 
   else
-    echo "The network is down"
+    echo "Please check network connections before attempting to install.\n"
   fi
 }
 
